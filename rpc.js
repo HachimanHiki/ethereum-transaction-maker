@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const totalTransaction = 360000
+const TotalTransaction = 360000
 const MiniSecond = 10
 const DestinationAddress = "http://3.131.135.209:8545"
 
@@ -12,7 +12,7 @@ let params = [{
     //"data": "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675"
 }]
 
-for (let i = 0; i < totalTransaction; i++) {
+for (let i = 0; i < TotalTransaction; i++) {
     setTimeout(() => {
         axios.post(DestinationAddress, {
             jsonrpc: "2.0",
