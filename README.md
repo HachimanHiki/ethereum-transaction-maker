@@ -8,7 +8,7 @@
 $ yarn install
 ```
 
-### 02. Setup
+### 03. Setup
 Into `rpc.js` file and modify the following constant variable
 
 #### `rpc.js`
@@ -19,7 +19,7 @@ const MiniSecond = 10
 const DestinationAddress = "http://3.131.135.209:8545"
 ```
 
-### 03. Start
+### 04. Start
 
 ```
 $ yarn start
