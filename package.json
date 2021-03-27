@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node ./rpc.jsww"
+    "start": "node ./rpc.js"
   },
   "dependencies": {
     "axios": "^0.21.0",
